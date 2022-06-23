@@ -1,0 +1,50 @@
+{"intents": 
+    [
+        {"tag": "greeting",
+            "patterns":["Chào","Chào bạn","Xin chào trợ lí ảo","Ngày mới tốt lành","Buổi sáng vui vẻ","Buổi trưa vui vẻ","Buổi tối vui vẻ"],
+            "responses":["chào bạn"],
+            "context_set": ""
+        },
+        {"tag": "day",
+            "patterns":["Hôm nay là ngày bao nhiêu","Hôm nay ngày mấy","Bữa nay là ngày bao nhiêu","","Hiện tại là ngày mấy"],
+            "responses":["ngày"],
+            "context_set": ""
+        },
+        {"tag": "thank",
+            "patterns":["Cảm ơn trợ lí ảo","Cảm ơn bạn","Chúc bạn làm việc tốt"],
+            "responses":["đừng nên quá khách sáo","không có gì, đó là công việc của tôi"],
+            "context_set": ""
+        },
+        {"tag": "hour",
+            "patterns":["Mấy giờ rồi","Hiện tại là mấy giờ","Bây giờ là mấy giờ","Giờ hiện tại là mấy giờ"],
+            "responses":["giờ"],
+            "context_set": ""
+        },
+        {"tag": "goodbye",
+            "patterns":["Hẹn gặp lại","Bye bye","Tạm biệt bạn","Chào tạm biệt trợ lí ảo","Bye trợ lí ảo"],
+            "responses":["Vâng chào bạn","Hẹn gặp lại sau nhé"],
+            "context_set": ""
+        },
+        {"tag": "love",
+            "patterns":["Thính thả crush","Nói câu sến","Cách để crush đỗ"],
+            "responses":["Hè đến nắng vàng. Lão Hạc nhớ chó anh thì nhớ em",
+                "Trăng kia ai vẽ mà tròn, Lòng anh ai trộm mà hoài nhớ thương",
+                "Thiếu 500 nghìn là anh tròn một củ. Thiếu em nữa là anh đủ một đôi.",
+                "Suốt bao năm lòng anh luôn yên tĩnh. Gặp em rồi, tĩnh lặng hóa phong ba.",
+                "Nắng kia là của ông trời, còn em đã của ai rồi hay chưa? ",
+                "Mây kia là của hạt mưa, em xem đã thích anh chưa hay rồi?",
+                "Cánh đồng xanh xanh, làn mây trăng trắng. Tưởng là say nắng ai ngờ say em.",
+                "Đố ai quét sạch được lá rừng. Đố ai khuyên được anh ngừng yêu em!",
+                "Trời không xanh, mây cũng không trắng, anh không say nắng, nhưng lại say em",
+                "Cho anh một cốc trà đào, tiện cho anh hỏi lối vào tim em",
+                "Anh đây rất thích đồng hồ, thích luôn cả việc làm bồ của em",
+                "Vertor chỉ có một chiều, anh dân chuyên toán chỉ yêu 1 người.",
+                "Hoa vô tình bỏ rơi cành lá, người vô tình bỏ lỡ tơ duyên",
+                "Ngoài kia bão táp mưa sa, bôn ba mệt quá về nhà với anh",
+                "Nhân gian vốn lắm bộn bề, sao không bỏ hết mà về với anh",
+                "Thức khuya anh tỉnh bằng trà, yêu em anh trả bằng tình được không?"
+                ],
+            "context_set": ""
+        }
+    ]
+}
